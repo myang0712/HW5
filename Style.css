@@ -3,9 +3,9 @@
 }
 
 .deletedRecipe {color:Green;
-                font-style:italic; 
-                font-weight:bold;
-                text-decoration:underline;
+    font-style:italic; 
+    font-weight:bold;
+    text-decoration:underline;
 }
 
 
@@ -46,19 +46,19 @@
 }
 
  .cssdetailsview td {
-     color: #F08080;
-     padding: 10px;
-     border: solid 1px #717171;
-     text-align: left;
+	color: #F08080;
+    padding: 10px;
+    border: solid 1px #717171;
+    text-align: left;
 }
 
  .cssdetailsview .altrow {
-     background: green;
+	background: green;
 
  }
  .cssdetailsview .fieldHeader {background:white;
-                               color:grey;
-                               border:solid 1px #fff;
+	color:grey;
+	border:solid 1px #fff;
 }
 
 
