@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Recipe.aspx.vb" Inherits="Recipe" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="_default" %>
 
 <!DOCTYPE html>
 
@@ -9,9 +9,26 @@
 </head>
 <body>
     <div class="background">
-
     <form id="form1" runat="server">
     <div>
+    <div class="Header">
+        <br />
+        <br />
+        Wicked Easy Recipes
+        <br />
+        Using 5 Ingredients or less!
+        </div>
+        <br />
+        <div class="Homeheader">
+        <a href="./default.aspx"> Home</a>&nbsp;
+        
+        <a href="./Insert.aspx">New Recipe</a>&nbsp;
+
+        <a href="AboutUs.aspx">About Us</a>&nbsp;
+        <a href="ContactUS.aspx">Contact</a>
+
+
+            <div>
     
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [Table] WHERE [RId] = @RId" InsertCommand="INSERT INTO [Table] ([RecipeName], [SubmittedBy], [Ingredient1], [Ingredient2], [Ingredient3], [Ingredient4], [Ingredient5], [Preparation], [Notes]) VALUES (@RecipeName, @SubmittedBy, @Ingredient1, @Ingredient2, @Ingredient3, @Ingredient4, @Ingredient5, @Preparation, @Notes)" SelectCommand="SELECT * FROM [Table]" UpdateCommand="UPDATE [Table] SET [RecipeName] = @RecipeName, [SubmittedBy] = @SubmittedBy, [Ingredient1] = @Ingredient1, [Ingredient2] = @Ingredient2, [Ingredient3] = @Ingredient3, [Ingredient4] = @Ingredient4, [Ingredient5] = @Ingredient5, [Preparation] = @Preparation, [Notes] = @Notes WHERE [RId] = @RId">
             <DeleteParameters>
@@ -44,16 +61,9 @@
         <div class="Homeheader">
             <br />
             <br />
-            <a href="default.aspx">Home</a>
-       
-        <a href="Insert.aspx")>Add new recipe</a>
-        <a href="AboutUs.aspx">About Us</a>
-        <a href="ContactUS.aspx">Contact Us</a>
-            <br />
-            <br />
+    
         </div>
-        <br />
-        <br />
+  
         <br />
         <asp:GridView ID="GridView1" 
             runat="server" 
@@ -82,6 +92,22 @@
         <br />
     </div>
     </div>
+    </form>
+</body>
+</html>
+
+
+
+
+            </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+    </div>
+        </div>
     </form>
 </body>
 </html>

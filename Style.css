@@ -1,0 +1,92 @@
+﻿body {
+
+}
+
+.deletedRecipe {color:Green;
+                font-style:italic; 
+                font-weight:bold;
+                text-decoration:underline;
+}
+
+
+
+.cssgridview {
+    width: 100%;
+    background-color: #F08080;
+    margin:5px 0 10px 0;
+    border:solid 1px #525252;
+
+}
+
+.background {
+    background-color: #D2b48c;
+}
+
+
+.cssgridview td {
+    padding: 10px;
+    border: solid 1px #c1c1c1;
+    color: white;
+}
+
+.cssgridview .alt {
+    background: #fcfcfc;
+}
+
+.cssgridview th {
+    padding: 4px 2px;
+    color: #696969;
+    background: #FFFF99;
+}
+
+.cssdetailsview {
+    color: grey;
+    margin: 5px 0 10px 0;
+    border-collapse: collapse;
+}
+
+ .cssdetailsview td {
+     color: #F08080;
+     padding: 10px;
+     border: solid 1px #717171;
+     text-align: left;
+}
+
+ .cssdetailsview .altrow {
+     background: green;
+
+ }
+ .cssdetailsview .fieldHeader {background:white;
+                               color:grey;
+                               border:solid 1px #fff;
+}
+
+
+
+
+.cssDetailsview .header td {background:#F08080;border:solid 1px #fff;
+}
+
+
+.Header {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background: #f08080;
+}
+
+
+.Homeheader {
+    color: silver;
+    font-weight: bold;
+    text-align:center;
+    text-decoration:underline;
+}
+
+a:link {color:#696969;
+    text-decoration:none; 
+}
+
+a:hover {   
+    color: #000;
+}
